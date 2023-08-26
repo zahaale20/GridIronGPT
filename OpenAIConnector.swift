@@ -8,7 +8,7 @@ enum MessageUserType {
 
 class OpenAIConnector: ObservableObject {
     let openAIURL = URL(string: "https://api.openai.com/v1/chat/completions")
-    let openAIKey = "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"
+    let openAIKey = "INSERT OPEN AI KEY HERE"
 
     @Published var messageLog: [[String: String]] = [
         ["role": "system", "content": "Grid Iron GPT"]
